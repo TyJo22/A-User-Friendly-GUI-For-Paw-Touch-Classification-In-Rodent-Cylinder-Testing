@@ -1,4 +1,3 @@
-
 % Define the target animal ID and files to analyze
 targetRatID = 'Rat1';
 targetFiles = {'TestGroupI.avi', 'TestGroupII.avi'};
@@ -70,3 +69,4 @@ fprintf('Total Wall Touches: %d\n', totalWallTouches);
 fprintf('Asymmetry Index: %.2f\n', asymmetryIndex);
 fprintf('Total Time in Cylinder: %.1f seconds\n', totalDuration);
 fprintf('Rate of Wall Touches: %.2f touches/minute\n', touchRatePerMin);
+
